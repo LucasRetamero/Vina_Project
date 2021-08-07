@@ -1,0 +1,17 @@
+{
+    "name": "Vina project",
+	"description": "E-commerce from Vina",
+	"authors":[
+	{
+	   "name": "Lucas Retamero",
+	   "email": "lucasretamerogimenes@gmail.com"
+	}
+	],
+    "require": {},
+	"autoload": {
+		"psr-4":{
+	      "App\\": "app/",
+          "Src\\": "src/"		  
+		}
+	}
+}
